@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cef">
+      <UniqueIdentifier>{12e38449-311f-46c5-8f8b-83d5655edeb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="..\cef\cefclient\README-TRANSFER.txt">
+      <Filter>cef</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mainframe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\client_app.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\client_renderer.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\dom_test.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\performance_test.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\resource_util.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\string_util.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\window_test.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\binding_test.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\client_switches.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\dialog_test.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiLibCefDemo.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\performance_test_setup.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\cefclient.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cef\cefclient\resource.h">
+      <Filter>cef</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scheme_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiLibCefDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mainframe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\client_app.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\client_app_delegates.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\client_renderer.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\dom_test.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\performance_test.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\resource_util_win.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\string_util.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\window_test.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\window_test_win.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\performance_test_tests.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\dialog_test.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\client_switches.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\client_handler_win.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\binding_test.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cef\cefclient\cefclient.cpp">
+      <Filter>cef</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowserClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scheme_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DuiLibCefDemo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\cef\cefclient\cefclient.rc">
+      <Filter>cef</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="DuiLibCefDemo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\cef\cefclient\compatibility.manifest" />
+    <Manifest Include="..\cef\cefclient\cefclient.exe.manifest">
+      <Filter>cef</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\cef\cefclient\cefclient.aps">
+      <Filter>cef</Filter>
+    </None>
+  </ItemGroup>
+</Project>

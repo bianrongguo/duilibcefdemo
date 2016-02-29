@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[7z.dsp]
+SCC_Aux_Path = "F:\VSS"
+SCC_Project_Name = "$/UEM8.0/Src/Client/include/lzma920/C/Util/7z", LLRAAAAA
+
+[7z.dsw]
+SCC_Aux_Path = "F:\VSS"
+SCC_Project_Name = "$/UEM8.0/Src/Client/include/lzma920/C/Util/7z", LLRAAAAA

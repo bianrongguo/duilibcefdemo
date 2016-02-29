@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Dialog Test</title>
+<script>
+
+function show_file_dialog(element, test) {
+  var message = 'Dialog.' + test;
+  var target = document.getElementById(element);
+
+  // Register for the callback from OnFileDialogDismissed in dialog_test.cpp.
+  app.setMessageCallback(message, function(msg, paths) {
+    target.innerText = paths.join();
+    app.removeMessageCallback(message);
+  });
+
+  // This will result in a call to OnProcessMessageReceived in dialog_test.cpp.
+  app.sendMessage(message);
+}
+</script>
+</head>
+<body bgcolor="white">
+<form>
+<br/><input type="button" onclick="show_file_dialog('fo', 'FilePath');" value="Show File Open"> <span id="fo"></span>
+</form>
+</body>
+</html>
